@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#principal {
+	width: 800px;
+	height: 700px;
+	margin: 0 auto;
+}
+
+.barra {
+	height: 40px;
+	background-color: #215;
+}
+
+#barra_superior p{
+	color: #FFFFFF;
+	float: right;
+	padding: 10px 40px;
+	text-decoration: none;
+}
+
+#logo {
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+
+#logo img {
+	height: 200px;
+}
+
+#banner {
+	height: 200px;
+	width: 600px;
+	float: right;
+}
+
+#banner img {
+	width: 600px;
+	height: 200px;
+}
+
+#menu {
+	clear: both; /* USAR SEMPRE Q TIVER USANDO O FLOAT */
+}
+
+#menu p {
+	color: white;
+	padding: 10px;
+}
+
+
+
+h1 {
+	font: bold 16px verdana, sans-serif;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.text-page {
+	padding: 15px 10px 10px;
+}
+
+#esquerda {
+	height: 380px;
+	width: 400px;
+	float: left;
+	/*text-align: center;*/
+
+}
+
+#esquerda img {
+	height: 180px;
+	width: 150px;
+	border-radius: 40px;
+	display: block;
+	margin: 20px auto;
+
+}
+
+#direita {
+	height: 380px;
+	width: 400px;
+	float: right;
+	/*text-align: center;*/
+}
+
+#direita img {
+	height: 180px;
+	width: 150px;
+	border-radius: 40px;
+	display: block;
+	margin: 20px auto;
+}
+
+#rodape {
+	clear: both;
+}
