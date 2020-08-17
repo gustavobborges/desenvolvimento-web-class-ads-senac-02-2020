@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#principal {
+    width: 1000px;
+    height: 780px;
+    margin: 30px auto;
+    font: verdana;
+    color: #527213;
+}
+
+#barra_superior {
+    height: 45px;
+    border: 1px #8BBD24 solid;
+    margin: 0 0 4px 0;
+}
+
+#barra_superior ul {
+	padding: 10px;
+}
+
+#barra_superior ul li {
+    display: inline;
+    font: bold 18px verdana, sans-serif;
+}
+
+#barra_superior ul li a {
+	color:#537215;
+	text-decoration: none;
+	padding: 0 55px;
+}
+
+#barra_superior ul li a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+    height: 200px;
+    width: 240px;
+    border: 1px #8BBD24 solid;
+    float: left;
+}
+
+#logo img {
+    width: 240px;
+    height: 200px;
+}
+
+#banner {
+    height: 200px;
+    width: 750px;
+    border: 1px #8BBD24 solid;
+    float: right;
+}
+
+#banner img {
+    width: 750px;
+    height: 200px;
+}
+
+.leia_mais_block {
+    height: 160px;
+    clear: both;
+    align-items: center;
+}
+
+.leia_mais {
+    width: 245px;
+    height: 100%;
+    border: 1px #8BBD24 solid;
+    float: left;
+    margin: 4px 2.5px 4px 0px;
+}
+
+
+.leia_mais h1 {
+    font: bold 20px verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.leia_mais p {
+    padding: 10px;
+}
+
+.leia_mais p a {
+    text-decoration: none;
+}
+
+.texto {
+    height: 300px;
+    width: 100%;
+    clear: both;
+}
+
+#texto_1 {
+    width: 489px;
+    height: 300px;
+    border: 1px #8BBD24 solid;
+    float: left;
+}
+
+#texto_1 h1 {
+    text-align: center;
+    font: bolder 20px verdana, sans-serif;
+    padding: 30px;
+}
+
+#texto_1 p {
+    padding: 10px;
+}
+
+#texto_1 p img {
+    width: 20%;
+    float: right;
+    padding: 20px 10px;
+
+}
+
+#texto_2 {
+    width: 489px;
+    height: 100%;
+    border: 1px #8BBD24 solid;
+    float: right;
+}
+
+#texto_2 h1 {
+    text-align: center;
+    font: bolder 20px verdana, sans-serif;
+    padding: 30px;
+}
+
+#texto_2 p {
+    padding: 10px;
+}
+
+#texto_2 img {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+#rodape {
+    clear: both;
+    height: 45px;
+    width: 100%;
+    border: 1px #8BBD24 solid;
+    margin: 8px 0 0 0;
+}
+
+#rodape p {
+    padding: 13px;
+	text-align: center;
+	font-size: 14px;
+}
