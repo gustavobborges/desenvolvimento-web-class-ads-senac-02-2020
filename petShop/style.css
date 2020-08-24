@@ -172,3 +172,30 @@ tr:nth-child(even) {  /*FAZ O STRIPED NA TABELA*/
 
 /* ----- */
 
+
+#form-email {
+    display: block;
+    padding: 10px 0 10px 20px;
+    width: 600px;
+}
+ label {
+     width: 85px;
+ }
+.div_flex {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#email_textarea {
+    width: 80%;
+    height: 180px;
+}
+
+.botao_esquerda {
+    margin-left: 85px;
+}
+
+.botao {
+    width: 100px;
+    margin-right: 10px;
+}
